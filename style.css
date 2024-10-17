@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.parallax {
+    height: 100vh; /* Full screen height */
+    background-attachment: fixed; /* This creates the parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax0{
+    background-image: url('https://chblob.icloudhospital.com/images/4-1709d49e-00b1-493e-80ab-91e37356ba6e.jpg');
+}
+
+#parallax1 {
+    background-image: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/786a6552ba0a0e58996195b500b4c666');
+    /* burger */
+}
+
+#parallax2 {
+    background-image: url('https://images.jdmagicbox.com/quickquotes/listicle/listicle_1693378392559_qvoz6_6240x4160.jpg');
+    /* shawarma */
+}
+
+#parallax3 {
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/9d/b9/47/so-tasty-and-nice-spicy.jpg?w=600&h=400&s=1');
+    /* alfahm */
+}
+
+#parallax4 {
+    background-image: url('https://www.mashed.com/img/gallery/how-fast-food-restaurants-really-make-their-french-fries-crispy/intro-1570545965.jpg');
+    /* french fries */
+}
+
+#parallax5 {
+    background-image: url('https://www.southernliving.com/thmb/UW4kKKL-_M3WgP7pkL6Pb6lwcgM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ham_Sandwich_011-1-49227336bc074513aaf8fdbde440eafe.jpg');
+    /* sandwich */
+}
+
+#parallax6 {
+    background-image: url('https://mediaproxy.salon.com/width/1200/height/675/https://media2.salon.com/2022/11/skillet_chicken_parmesan.jpg');
+    /* pizza */
+}
+
+.content {
+    /* height: 100vh; */
+     /* Full screen height for content */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 2.5em;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    font-family: "Style Script", cursive;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    font-family: "Kurale", serif;
+}
+
+.caption {
+    position: absolute;
+    bottom: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
